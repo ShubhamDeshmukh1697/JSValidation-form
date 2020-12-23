@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="register_style.css">
+	<!-- <script type="text/javascript" src="register.js"></script> -->
+
+	<title>Register</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous"/>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<style type="text/css"></style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h2>REGISTRATION FORM</h2>
+		</div>
+			<form class="form" id="form" method="post" action="#">
+				<div class="form-control">
+					<label>Username</label>
+					<input type="text" name="username" id="username" placeholder="username">
+					<i class="fas fa-check-circle"></i>
+					<i class="fas fa-exclamation-circle"></i>
+					<small>Error Msg</small>
+				</div>
+				<div class="form-control">
+					<label>email</label>
+					<input type="email" name="email" id="email" placeholder="enter email">
+					<i class="fas fa-check-circle"></i>
+					<i class="fas fa-exclamation-circle"></i>
+					<small>Error Msg</small>
+				</div>
+				<div class="form-control">
+					<label>phone number</label>
+					<input type="number" name="phone" id="phone" placeholder="enter phone number">
+					<i class="fas fa-check-circle"></i>
+					<i class="fas fa-exclamation-circle"></i>
+					<small>Error Msg</small>
+				</div>
+				<div class="form-control">
+					<label>password</label>
+					<input type="password" name="password" id="password" placeholder="Enter your password">
+					<i class="fas fa-check-circle"></i>
+					<i class="fas fa-exclamation-circle"></i>
+					<small>Error Msg</small>
+				</div>
+				<div class="form-control">
+					<label>confirm password</label>
+					<input type="password" name="cpassword" id="cpassword" placeholder="enter your password again">
+					<i class="fas fa-check-circle"></i>
+					<i class="fas fa-exclamation-circle"></i>
+					<small>Error Msg</small>
+				</div>
+				<input type="submit" class="btn" value="submit">
+			</form>
+	</div>
+
+<script type="text/javascript" src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script type="text/javascript" src="register.js"></script>
+</body>
+</html>
